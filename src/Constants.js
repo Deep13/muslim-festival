@@ -1,3 +1,4 @@
+export const app_title = "Islamic Festivals Mubarak";
 export const day_title = {
   "Eid": "Eid Mubarak",
   "Hijri": "Hijri Mubarak",

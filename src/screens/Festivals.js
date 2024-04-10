@@ -12,7 +12,7 @@ import {
     ImageBackground
 } from 'react-native';
 import image_base from '../festival_icon.json';
-import { banner_key4, day_title } from '../Constants';
+import { banner_key4, day_title, app_title } from '../Constants';
 import {
     TestIds,
     BannerAd,
@@ -37,7 +37,7 @@ const Festivals = ({ navigation }) => {
                             return (
                                 <View>
                                     <BannerAd unitId={BadUnitId} size={BannerAdSize.FULL_BANNER} />
-                                    <Text style={{ color: "white", marginTop: 20, fontSize: width / 10, marginHorizontal: 20, textAlign: "center", marginBottom: 20, fontWeight: "bold" }}>Muslim Festival Mubarak</Text>
+                                    <Text style={{ color: "white", marginTop: 20, fontSize: width / 10, marginHorizontal: 20, textAlign: "center", marginBottom: 20, fontWeight: "bold" }}>{app_title}</Text>
                                 </View>
                             );
                         }}
