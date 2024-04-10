@@ -3,7 +3,7 @@ export const day_title = {
   "Eid": "Eid Mubarak",
   "Hijri": "Hijri Mubarak",
   "Ramadan": "Ramadan Mubarak",
-  "Milad": "Milad Mubarak"
+  "Milad": "Eid Milad-un-Nabi Mubarak"
 };
 export const banner_key1 = 'ca-app-pub-4717579333914549/2073816539';
 export const banner_key2 = 'ca-app-pub-4717579333914549/8515650543';
